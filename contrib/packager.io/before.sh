@@ -6,8 +6,8 @@
 set -eu
 
 # The sha is the second element in APP_PKG_ITERATION
-VERSION="${APP_PKG_VERSION:-0.0.0}-$APP_PKG_ITERATION"
-SHA=$(echo $APP_PKG_ITERATION | cut -d'.' -f2)
+VERSION="${APP_PKG_VERSION:-0.0.0}-${APP_PKG_ITERATION:-0}"
+SHA=$(echo ${APP_PKG_ITERATION:-0.0.0} | cut -d'.' -f2)
 
 # Download info
 echo "INFO collection | Getting info from github for commit $SHA"
