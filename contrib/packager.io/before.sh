@@ -6,7 +6,7 @@
 set -eu
 
 # The sha is the second element in APP_PKG_ITERATION
-VERSION="$APP_PKG_VERSION-$APP_PKG_ITERATION"
+VERSION="${APP_PKG_VERSION:-0.0.0}-$APP_PKG_ITERATION"
 SHA=$(echo $APP_PKG_ITERATION | cut -d'.' -f2)
 
 # Download info
