@@ -5,6 +5,8 @@
 
 set -eu
 
+export
+
 # The sha is the second element in APP_PKG_ITERATION
 VERSION="${APP_PKG_VERSION:-0.0.0}-${APP_PKG_ITERATION:-0}"
 SHA=$(echo ${APP_PKG_ITERATION:-0.0.0} | cut -d'.' -f2)
