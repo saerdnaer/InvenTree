@@ -804,7 +804,7 @@ msgstr "Bau-Anzahl"
 
 #: build/models.py:318
 msgid "Number of stock items to build"
-msgstr "Anzahl der zu bauenden Lagerartikel"
+msgstr "Anzahl der zu bauenden Items"
 
 #: build/models.py:322
 msgid "Completed items"
@@ -812,7 +812,7 @@ msgstr "Fertiggestellte Teile"
 
 #: build/models.py:324
 msgid "Number of stock items which have been completed"
-msgstr "Anzahl der fertigen Lagerartikel"
+msgstr "Anzahl der fertigen Items"
 
 #: build/models.py:328
 msgid "Build Status"
@@ -1034,15 +1034,15 @@ msgstr ""
 #: stock/models.py:457 stock/serializers.py:101 stock/serializers.py:823
 #: stock/serializers.py:1310 stock/serializers.py:1422
 msgid "Stock Item"
-msgstr "Lagerartikel"
+msgstr "Items"
 
 #: build/models.py:1905
 msgid "Source stock item"
-msgstr "Quell-Lagerartikel"
+msgstr "Quell-Items"
 
 #: build/models.py:1915
 msgid "Stock quantity to allocate to build"
-msgstr "Anzahl an Lagerartikel dem Bauauftrag zuweisen"
+msgstr "Anzahl an Items dem Bauauftrag zuweisen"
 
 #: build/models.py:1924
 msgid "Install into"
@@ -1050,7 +1050,7 @@ msgstr "Installiere in"
 
 #: build/models.py:1925
 msgid "Destination stock item"
-msgstr "Ziel-Lagerartikel"
+msgstr "Ziel-Items"
 
 #: build/serializers.py:115
 msgid "Build Level"
@@ -1115,7 +1115,7 @@ msgstr "Seriennummern automatisch zuweisen"
 
 #: build/serializers.py:388
 msgid "Automatically allocate required items with matching serial numbers"
-msgstr "Benötigte Lagerartikel automatisch mit passenden Seriennummern zuweisen"
+msgstr "Benötigte Items automatisch mit passenden Seriennummern zuweisen"
 
 #: build/serializers.py:421 order/serializers.py:886 stock/api.py:1114
 #: stock/models.py:1903
@@ -1192,7 +1192,7 @@ msgstr "Wie sollen zusätzliche Lagerbestandteile, die dem Bauauftrag zugewiesen
 
 #: build/serializers.py:776
 msgid "Some stock items have been overallocated"
-msgstr "Der Bestand einiger Lagerartikel ist überbelegt"
+msgstr "Der Bestand einiger Items ist überbelegt"
 
 #: build/serializers.py:781
 msgid "Accept Unallocated"
@@ -1200,7 +1200,7 @@ msgstr "Nicht zugewiesene akzeptieren"
 
 #: build/serializers.py:783
 msgid "Accept that stock items have not been fully allocated to this build order"
-msgstr "Akzeptieren, dass Lagerartikel diesem Bauauftrag nicht vollständig zugewiesen wurden"
+msgstr "Akzeptieren, dass Items diesem Bauauftrag nicht vollständig zugewiesen wurden"
 
 #: build/serializers.py:794
 msgid "Required stock has not been fully allocated"
@@ -1281,7 +1281,7 @@ msgstr "Lagerort ausschließen"
 
 #: build/serializers.py:1105
 msgid "Exclude stock items from this selected location"
-msgstr "Lagerartikel vom ausgewählten Ort ausschließen"
+msgstr "Items vom ausgewählten Ort ausschließen"
 
 #: build/serializers.py:1110
 msgid "Interchangeable Stock"
@@ -1289,7 +1289,7 @@ msgstr "Wechselbares Lagerbestand"
 
 #: build/serializers.py:1111
 msgid "Stock items in multiple locations can be used interchangeably"
-msgstr "Lagerartikel an mehreren Standorten können austauschbar verwendet werden"
+msgstr "Items an mehreren Standorten können austauschbar verwendet werden"
 
 #: build/serializers.py:1116
 msgid "Substitute Stock"
@@ -2779,7 +2779,7 @@ msgstr "Historische Bestellungspreise überschreiben die Lieferanten-Staffelprei
 
 #: common/setting/system.py:576
 msgid "Use Stock Item Pricing"
-msgstr "Lagerartikel-Preis verwenden"
+msgstr "Items-Preis verwenden"
 
 #: common/setting/system.py:578
 msgid "Use pricing from manually entered stock data for pricing calculations"
@@ -2787,11 +2787,11 @@ msgstr "Preise aus manuell eingegebenen Lagerdaten für Preisberechnungen verwen
 
 #: common/setting/system.py:584
 msgid "Stock Item Pricing Age"
-msgstr "Lagerartikelpreis Alter"
+msgstr "Itemspreis Alter"
 
 #: common/setting/system.py:586
 msgid "Exclude stock items older than this number of days from pricing calculations"
-msgstr "Lagerartikel, die älter als diese Anzahl an Tagen sind, von der Preisberechnung ausschließen"
+msgstr "Items, die älter als diese Anzahl an Tagen sind, von der Preisberechnung ausschließen"
 
 #: common/setting/system.py:593
 msgid "Use Variant Pricing"
@@ -2896,15 +2896,15 @@ msgstr "Global einzigartige Seriennummern"
 
 #: common/setting/system.py:675
 msgid "Serial numbers for stock items must be globally unique"
-msgstr "Seriennummern für Lagerartikel müssen global eindeutig sein"
+msgstr "Seriennummern für Items müssen global eindeutig sein"
 
 #: common/setting/system.py:680
 msgid "Delete Depleted Stock"
-msgstr "Erschöpften Lagerartikel löschen"
+msgstr "Erschöpften Items löschen"
 
 #: common/setting/system.py:681
 msgid "Determines default behavior when a stock item is depleted"
-msgstr "Legt das Standardverhalten fest, wenn ein Lagerartikel aufgebraucht ist"
+msgstr "Legt das Standardverhalten fest, wenn ein Items aufgebraucht ist"
 
 #: common/setting/system.py:686
 msgid "Batch Code Template"
@@ -2964,11 +2964,11 @@ msgstr "Standardsymbol für Lagerstandort (leer bedeutet kein Symbol)"
 
 #: common/setting/system.py:730
 msgid "Show Installed Stock Items"
-msgstr "Zeige installierte Lagerartikel"
+msgstr "Zeige installierte Items"
 
 #: common/setting/system.py:731
 msgid "Display installed stock items in stock tables"
-msgstr "Anzeige der installierten Lagerartikel in Bestandstabellen"
+msgstr "Anzeige der installierten Items in Bestandstabellen"
 
 #: common/setting/system.py:736
 msgid "Check BOM when installing items"
@@ -2984,7 +2984,7 @@ msgstr "Erlaube Verschieben von \"nicht auf Lager\" Bestand"
 
 #: common/setting/system.py:746
 msgid "Allow stock items which are not in stock to be transferred between stock locations"
-msgstr "Lagerartikel, die nicht auf Lager sind, können zwischen Lagerstandorten übertragen werden"
+msgstr "Items, die nicht auf Lager sind, können zwischen Lagerstandorten übertragen werden"
 
 #: common/setting/system.py:752
 msgid "Build Order Reference Pattern"
@@ -3474,7 +3474,7 @@ msgstr "Bestand durchsuchen"
 
 #: common/setting/user.py:76
 msgid "Display stock items in search preview window"
-msgstr "Lagerartikel in Suchvorschau anzeigen"
+msgstr "Items in Suchvorschau anzeigen"
 
 #: common/setting/user.py:81
 msgid "Hide Unavailable Stock Items"
@@ -3482,7 +3482,7 @@ msgstr "Nicht verfügbare Artikel ausblenden"
 
 #: common/setting/user.py:83
 msgid "Exclude stock items which are not available from the search preview window"
-msgstr "Nicht verfügbare Lagerartikel aus der Suchvorschau ausschließen"
+msgstr "Nicht verfügbare Items aus der Suchvorschau ausschließen"
 
 #: common/setting/user.py:89
 msgid "Search Locations"
@@ -4931,7 +4931,7 @@ msgstr "Sendung wurde bereits versandt"
 
 #: order/models.py:2273
 msgid "Shipment has no allocated stock items"
-msgstr "Sendung hat keine zugewiesene Lagerartikel"
+msgstr "Sendung hat keine zugewiesene Items"
 
 #: order/models.py:2353
 msgid "Sales Order Extra Line"
@@ -4943,15 +4943,15 @@ msgstr ""
 
 #: order/models.py:2405 order/models.py:2407
 msgid "Stock item has not been assigned"
-msgstr "Lagerartikel wurde nicht zugewiesen"
+msgstr "Items wurde nicht zugewiesen"
 
 #: order/models.py:2414
 msgid "Cannot allocate stock item to a line with a different part"
-msgstr "Kann Lagerartikel keiner Zeile mit einem anderen Teil hinzufügen"
+msgstr "Kann Items keiner Zeile mit einem anderen Teil hinzufügen"
 
 #: order/models.py:2417
 msgid "Cannot allocate stock to a line without a part"
-msgstr "Kann Lagerartikel keiner Zeile ohne Teil hinzufügen"
+msgstr "Kann Items keiner Zeile ohne Teil hinzufügen"
 
 #: order/models.py:2420
 msgid "Allocation quantity cannot exceed stock quantity"
@@ -4959,7 +4959,7 @@ msgstr "Die zugeordnete Anzahl darf nicht die verfügbare Anzahl überschreiten"
 
 #: order/models.py:2439 order/serializers.py:1548
 msgid "Quantity must be 1 for serialized stock item"
-msgstr "Anzahl für serialisierte Lagerartikel muss 1 sein"
+msgstr "Anzahl für serialisierte Items muss 1 sein"
 
 #: order/models.py:2442
 msgid "Sales order does not match shipment"
@@ -4983,7 +4983,7 @@ msgstr "Position"
 
 #: order/models.py:2476
 msgid "Select stock item to allocate"
-msgstr "Lagerartikel für Zuordnung auswählen"
+msgstr "Items für Zuordnung auswählen"
 
 #: order/models.py:2485
 msgid "Enter stock allocation quantity"
@@ -5174,7 +5174,7 @@ msgstr "Zielort für empfangene Teile auswählen"
 
 #: order/serializers.py:785
 msgid "Enter batch code for incoming stock items"
-msgstr "Losnummer für eingehende Lagerartikel"
+msgstr "Losnummer für eingehende Items"
 
 #: order/serializers.py:792 stock/models.py:1161
 #: templates/email/stale_stock_notification.html:22 users/models.py:143
@@ -5187,7 +5187,7 @@ msgstr ""
 
 #: order/serializers.py:801
 msgid "Enter serial numbers for incoming stock items"
-msgstr "Seriennummern für eingehende Lagerartikel"
+msgstr "Seriennummern für eingehende Items"
 
 #: order/serializers.py:811
 msgid "Override packaging information for incoming stock items"
@@ -5532,7 +5532,7 @@ msgstr ""
 
 #: part/models.py:841
 msgid "Stock item with this serial number already exists"
-msgstr "Ein Lagerartikel mit dieser Seriennummer existiert bereits"
+msgstr "Ein Items mit dieser Seriennummer existiert bereits"
 
 #: part/models.py:983
 msgid "Duplicate IPN not allowed in part settings"
@@ -6225,7 +6225,7 @@ msgstr "Anzahl der Ergebnisse, die in dieser Vorlage aufgezeichnet wurden"
 
 #: part/serializers.py:230 part/serializers.py:248 stock/serializers.py:666
 msgid "Purchase currency of this stock item"
-msgstr "Kaufwährung dieses Lagerartikels"
+msgstr "Kaufwährung dieses Itemss"
 
 #: part/serializers.py:275
 msgid "File is not an image"
@@ -6346,7 +6346,7 @@ msgstr ""
 #: part/serializers.py:964 stock/serializers.py:1042 stock/serializers.py:1213
 #: users/ruleset.py:30
 msgid "Stock Items"
-msgstr "Lagerartikel"
+msgstr "Items"
 
 #: part/serializers.py:968
 msgid "Revisions"
@@ -6656,11 +6656,11 @@ msgstr ""
 
 #: plugin/base/barcodes/api.py:683
 msgid "Barcode does not match an existing stock item"
-msgstr "Barcode stimmt nicht mit einem vorhandenen Lagerartikel überein"
+msgstr "Barcode stimmt nicht mit einem vorhandenen Items überein"
 
 #: plugin/base/barcodes/api.py:699
 msgid "Stock item does not match line item"
-msgstr "Lagerartikel stimmt nicht mit dem Element überein"
+msgstr "Items stimmt nicht mit dem Element überein"
 
 #: plugin/base/barcodes/api.py:729
 msgid "Insufficient stock available"
@@ -6668,7 +6668,7 @@ msgstr "Unzureichender Bestand verfügbar"
 
 #: plugin/base/barcodes/api.py:742
 msgid "Stock item allocated to sales order"
-msgstr "Lagerartikel der Bestellung zugeordnet"
+msgstr "Items der Bestellung zugeordnet"
 
 #: plugin/base/barcodes/api.py:745
 msgid "Not enough information"
@@ -7951,7 +7951,7 @@ msgstr "Lagerstandorte"
 #: report/templates/report/inventree_stock_report_merge.html:21
 #: report/templates/report/inventree_test_report.html:21
 msgid "Stock Item Test Report"
-msgstr "Lagerartikel Test-Bericht"
+msgstr "Items Test-Bericht"
 
 #: report/templates/report/inventree_stock_report_merge.html:97
 #: report/templates/report/inventree_test_report.html:153
@@ -8154,7 +8154,7 @@ msgstr "Besitzer auswählen"
 
 #: stock/models.py:219
 msgid "Stock items may not be directly located into a structural stock locations, but may be located to child locations."
-msgstr "Lagerartikel können nicht direkt an einen strukturellen Lagerort verlegt werden, können aber an einen untergeordneten Lagerort verlegt werden."
+msgstr "Items können nicht direkt an einen strukturellen Lagerort verlegt werden, können aber an einen untergeordneten Lagerort verlegt werden."
 
 #: stock/models.py:226 users/models.py:503
 msgid "External"
@@ -8174,7 +8174,7 @@ msgstr "Standortart dieses Standortes"
 
 #: stock/models.py:309
 msgid "You cannot make this stock location structural because some stock items are already located into it!"
-msgstr "Sie können diesen Lagerort nicht als strukturell markieren, da sich bereits Lagerartikel darin befinden!"
+msgstr "Sie können diesen Lagerort nicht als strukturell markieren, da sich bereits Items darin befinden!"
 
 #: stock/models.py:595
 #, python-brace-format
@@ -8187,11 +8187,11 @@ msgstr ""
 
 #: stock/models.py:905
 msgid "Stock items cannot be located into structural stock locations!"
-msgstr "Lagerartikel können nicht in strukturelle Lagerorte abgelegt werden!"
+msgstr "Items können nicht in strukturelle Lagerorte abgelegt werden!"
 
 #: stock/models.py:932 stock/serializers.py:487
 msgid "Stock item cannot be created for virtual parts"
-msgstr "Für virtuelle Teile können keine Lagerartikel erstellt werden"
+msgstr "Für virtuelle Teile können keine Items erstellt werden"
 
 #: stock/models.py:949
 #, python-brace-format
@@ -8220,7 +8220,7 @@ msgstr "Referenz verweist nicht auf das gleiche Teil"
 
 #: stock/models.py:1016
 msgid "Parent Stock Item"
-msgstr "Eltern-Lagerartikel"
+msgstr "Eltern-Items"
 
 #: stock/models.py:1028
 msgid "Base part"
@@ -8228,7 +8228,7 @@ msgstr "Basis-Teil"
 
 #: stock/models.py:1038
 msgid "Select a matching supplier part for this stock item"
-msgstr "Passendes Zuliefererteil für diesen Lagerartikel auswählen"
+msgstr "Passendes Zuliefererteil für diesen Items auswählen"
 
 #: stock/models.py:1050
 msgid "Where is this stock item located?"
@@ -8236,7 +8236,7 @@ msgstr "Wo wird dieses Teil normalerweise gelagert?"
 
 #: stock/models.py:1058 stock/serializers.py:1643
 msgid "Packaging this stock item is stored in"
-msgstr "Verpackung, in der dieser Lagerartikel gelagert ist"
+msgstr "Verpackung, in der dieser Items gelagert ist"
 
 #: stock/models.py:1064
 msgid "Installed In"
@@ -8252,7 +8252,7 @@ msgstr "Seriennummer für dieses Teil"
 
 #: stock/models.py:1105 stock/serializers.py:1628
 msgid "Batch code for this stock item"
-msgstr "Losnummer für diesen Lagerartikel"
+msgstr "Losnummer für diesen Items"
 
 #: stock/models.py:1110
 msgid "Stock Quantity"
@@ -8264,7 +8264,7 @@ msgstr "Quellbau"
 
 #: stock/models.py:1123
 msgid "Build for this stock item"
-msgstr "Bauauftrag für diesen Lagerartikel"
+msgstr "Bauauftrag für diesen Items"
 
 #: stock/models.py:1130
 msgid "Consumed By"
@@ -8272,7 +8272,7 @@ msgstr "Verbraucht von"
 
 #: stock/models.py:1133
 msgid "Build order which consumed this stock item"
-msgstr "Bauauftrag der diesen Lagerartikel verbrauchte"
+msgstr "Bauauftrag der diesen Items verbrauchte"
 
 #: stock/models.py:1142
 msgid "Source Purchase Order"
@@ -8280,7 +8280,7 @@ msgstr "Quelle Bestellung"
 
 #: stock/models.py:1146
 msgid "Purchase order for this stock item"
-msgstr "Bestellung für diesen Lagerartikel"
+msgstr "Bestellung für diesen Items"
 
 #: stock/models.py:1152
 msgid "Destination Sales Order"
@@ -8288,7 +8288,7 @@ msgstr "Ziel-Auftrag"
 
 #: stock/models.py:1163
 msgid "Expiry date for stock item. Stock will be considered expired after this date"
-msgstr "Ablaufdatum für Lagerartikel. Bestand wird danach als abgelaufen gekennzeichnet"
+msgstr "Ablaufdatum für Items. Bestand wird danach als abgelaufen gekennzeichnet"
 
 #: stock/models.py:1181
 msgid "Delete on deplete"
@@ -8296,7 +8296,7 @@ msgstr "Löschen wenn leer"
 
 #: stock/models.py:1182
 msgid "Delete this Stock Item when stock is depleted"
-msgstr "Diesen Lagerartikel löschen wenn der Bestand aufgebraucht ist"
+msgstr "Diesen Items löschen wenn der Bestand aufgebraucht ist"
 
 #: stock/models.py:1203
 msgid "Single unit purchase price at time of purchase"
@@ -8341,11 +8341,11 @@ msgstr "Artikel wurde einem Kundenauftrag zugewiesen"
 
 #: stock/models.py:2036
 msgid "Stock item is installed in another item"
-msgstr "Lagerartikel ist in anderem Element verbaut"
+msgstr "Items ist in anderem Element verbaut"
 
 #: stock/models.py:2039
 msgid "Stock item contains other items"
-msgstr "Lagerartikel enthält andere Artikel"
+msgstr "Items enthält andere Artikel"
 
 #: stock/models.py:2042
 msgid "Stock item has been assigned to a customer"
@@ -8353,11 +8353,11 @@ msgstr "Artikel wurde einem Kunden zugewiesen"
 
 #: stock/models.py:2045 stock/models.py:2226
 msgid "Stock item is currently in production"
-msgstr "Lagerartikel wird aktuell produziert"
+msgstr "Items wird aktuell produziert"
 
 #: stock/models.py:2048
 msgid "Serialized stock cannot be merged"
-msgstr "Nachverfolgbare Lagerartikel können nicht zusammengeführt werden"
+msgstr "Nachverfolgbare Items können nicht zusammengeführt werden"
 
 #: stock/models.py:2055 stock/serializers.py:1498
 msgid "Duplicate stock items"
@@ -8365,11 +8365,11 @@ msgstr "Artikel duplizeren"
 
 #: stock/models.py:2059
 msgid "Stock items must refer to the same part"
-msgstr "Lagerartikel müssen auf dasselbe Teil verweisen"
+msgstr "Items müssen auf dasselbe Teil verweisen"
 
 #: stock/models.py:2067
 msgid "Stock items must refer to the same supplier part"
-msgstr "Lagerartikel müssen auf dasselbe Lieferantenteil verweisen"
+msgstr "Items müssen auf dasselbe Lieferantenteil verweisen"
 
 #: stock/models.py:2072
 msgid "Stock status codes must match"
@@ -8377,7 +8377,7 @@ msgstr "Status-Codes müssen zusammenpassen"
 
 #: stock/models.py:2347
 msgid "StockItem cannot be moved as it is not in stock"
-msgstr "Lagerartikel kann nicht bewegt werden, da kein Bestand vorhanden ist"
+msgstr "Items kann nicht bewegt werden, da kein Bestand vorhanden ist"
 
 #: stock/models.py:2816
 msgid "Stock Item Tracking"
@@ -8533,11 +8533,11 @@ msgstr ""
 
 #: stock/serializers.py:662
 msgid "Purchase price of this stock item, per unit or pack"
-msgstr "Einkaufspreis dieses Lagerartikels, pro Einheit oder Verpackungseinheit"
+msgstr "Einkaufspreis dieses Itemss, pro Einheit oder Verpackungseinheit"
 
 #: stock/serializers.py:700
 msgid "Enter number of stock items to serialize"
-msgstr "Anzahl der zu serialisierenden Lagerartikel eingeben"
+msgstr "Anzahl der zu serialisierenden Items eingeben"
 
 #: stock/serializers.py:708 stock/serializers.py:751 stock/serializers.py:789
 #: stock/serializers.py:927
@@ -8564,7 +8564,7 @@ msgstr "Seriennummern existieren bereits"
 
 #: stock/serializers.py:824
 msgid "Select stock item to install"
-msgstr "Lagerartikel für Installation auswählen"
+msgstr "Items für Installation auswählen"
 
 #: stock/serializers.py:831
 msgid "Quantity to Install"
@@ -8584,7 +8584,7 @@ msgstr "Die zu verwendende Menge muss mindestens 1 sein"
 
 #: stock/serializers.py:853
 msgid "Stock item is unavailable"
-msgstr "Lagerartikel ist nicht verfügbar"
+msgstr "Items ist nicht verfügbar"
 
 #: stock/serializers.py:864
 msgid "Selected part is not in the Bill of Materials"
@@ -8600,7 +8600,7 @@ msgstr "Ziel Lagerort für unverbautes Objekt"
 
 #: stock/serializers.py:950
 msgid "Select part to convert stock item into"
-msgstr "Wählen Sie einen Teil aus, zu dem dieser Lagerartikel geändert werden soll"
+msgstr "Wählen Sie einen Teil aus, zu dem dieser Items geändert werden soll"
 
 #: stock/serializers.py:963
 msgid "Selected part is not a valid option for conversion"
@@ -8608,19 +8608,19 @@ msgstr "Das ausgewählte Teil ist keine gültige Option für die Umwandlung"
 
 #: stock/serializers.py:980
 msgid "Cannot convert stock item with assigned SupplierPart"
-msgstr "Lagerartikel konnte nicht mit Zulieferteil zugewiesen werden"
+msgstr "Items konnte nicht mit Zulieferteil zugewiesen werden"
 
 #: stock/serializers.py:1014
 msgid "Stock item status code"
-msgstr "Lagerartikel Status-Code"
+msgstr "Items Status-Code"
 
 #: stock/serializers.py:1043
 msgid "Select stock items to change status"
-msgstr "Lagerartikel auswählen, um den Status zu ändern"
+msgstr "Items auswählen, um den Status zu ändern"
 
 #: stock/serializers.py:1049
 msgid "No stock items selected"
-msgstr "Keine Lagerartikel ausgewählt"
+msgstr "Keine Items ausgewählt"
 
 #: stock/serializers.py:1138 stock/serializers.py:1215
 msgid "Sublocations"
@@ -8644,7 +8644,7 @@ msgstr "Artikel ist einem Fertigungsauftrag zugeordnet"
 
 #: stock/serializers.py:1359
 msgid "Customer to assign stock items"
-msgstr "Kunde zum Zuweisen von Lagerartikel"
+msgstr "Kunde zum Zuweisen von Items"
 
 #: stock/serializers.py:1365
 msgid "Selected company is not a customer"
@@ -8660,7 +8660,7 @@ msgstr "Eine Liste der Lagerbestände muss angegeben werden"
 
 #: stock/serializers.py:1462
 msgid "Stock merging notes"
-msgstr "Notizen zur Lagerartikelzusammenführung"
+msgstr "Notizen zur Itemszusammenführung"
 
 #: stock/serializers.py:1467
 msgid "Allow mismatched suppliers"
@@ -8668,7 +8668,7 @@ msgstr "Unterschiedliche Lieferanten erlauben"
 
 #: stock/serializers.py:1468
 msgid "Allow stock items with different supplier parts to be merged"
-msgstr "Zusammenführen von Lagerartikeln mit unterschiedlichen Lieferanten erlauben"
+msgstr "Zusammenführen von Itemsn mit unterschiedlichen Lieferanten erlauben"
 
 #: stock/serializers.py:1473
 msgid "Allow mismatched status"
@@ -8676,11 +8676,11 @@ msgstr "Unterschiedliche Status erlauben"
 
 #: stock/serializers.py:1474
 msgid "Allow stock items with different status codes to be merged"
-msgstr "Zusammenführen von Lagerartikeln mit unterschiedlichen Status-Codes erlauben"
+msgstr "Zusammenführen von Itemsn mit unterschiedlichen Status-Codes erlauben"
 
 #: stock/serializers.py:1484
 msgid "At least two stock items must be provided"
-msgstr "Mindestens zwei Lagerartikel müssen angegeben werden"
+msgstr "Mindestens zwei Items müssen angegeben werden"
 
 #: stock/serializers.py:1551
 msgid "No Change"
@@ -8752,11 +8752,11 @@ msgstr "Alter Bestand-Verfolgungs-Eintrag"
 
 #: stock/status_codes.py:46
 msgid "Stock item created"
-msgstr "Lagerartikel erstellt"
+msgstr "Items erstellt"
 
 #: stock/status_codes.py:49
 msgid "Edited stock item"
-msgstr "Lagerartikel bearbeitet"
+msgstr "Items bearbeitet"
 
 #: stock/status_codes.py:50
 msgid "Assigned serial number"
@@ -8812,7 +8812,7 @@ msgstr "Unterobjekt geteilt"
 
 #: stock/status_codes.py:75
 msgid "Merged stock items"
-msgstr "Lagerartikel zusammengeführt"
+msgstr "Items zusammengeführt"
 
 #: stock/status_codes.py:78
 msgid "Converted to variant"
@@ -8942,7 +8942,7 @@ msgstr "Klicken Sie auf den folgenden Link, um diesen Auftrag anzuzeigen"
 
 #: templates/email/build_order_required_stock.html:7
 msgid "Stock is required for the following build order"
-msgstr "Für die folgenden Bauaufträge werden Lagerartikel benötigt"
+msgstr "Für die folgenden Bauaufträge werden Items benötigt"
 
 #: templates/email/build_order_required_stock.html:8
 #, python-format
@@ -8955,7 +8955,7 @@ msgstr "Klicken Sie auf den folgenden Link, um diesen Bauauftrag anzuzeigen"
 
 #: templates/email/build_order_required_stock.html:14
 msgid "The following parts are low on required stock"
-msgstr "Bei den folgenden Teilen gibt es wenige Lagerartikel"
+msgstr "Bei den folgenden Teilen gibt es wenige Items"
 
 #: templates/email/build_order_required_stock.html:18
 msgid "Required Quantity"

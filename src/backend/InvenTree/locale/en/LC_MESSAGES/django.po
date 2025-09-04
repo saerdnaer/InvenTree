@@ -707,7 +707,7 @@ msgstr ""
 
 #: build/api.py:861
 msgid "Filter by output stock item ID. Use 'null' to find uninstalled build items."
-msgstr ""
+msgstr "Filter by output item ID. Use 'null' to find uninstalled build items."
 
 #: build/models.py:117 users/ruleset.py:31
 msgid "Build Orders"
@@ -781,7 +781,7 @@ msgstr ""
 
 #: build/models.py:294
 msgid "Select location to take stock from for this build (leave blank to take from any stock location)"
-msgstr ""
+msgstr "Select location to take stock from for this build (leave blank to take from any location)"
 
 #: build/models.py:300
 msgid "External Build"
@@ -805,7 +805,7 @@ msgstr ""
 
 #: build/models.py:318
 msgid "Number of stock items to build"
-msgstr ""
+msgstr "Number of items to build"
 
 #: build/models.py:322
 msgid "Completed items"
@@ -813,7 +813,7 @@ msgstr ""
 
 #: build/models.py:324
 msgid "Number of stock items which have been completed"
-msgstr ""
+msgstr "Number of items which have been completed"
 
 #: build/models.py:328
 msgid "Build Status"
@@ -1011,7 +1011,7 @@ msgstr ""
 
 #: build/models.py:1744 order/models.py:2433
 msgid "Stock item is over-allocated"
-msgstr ""
+msgstr "Item is over-allocated"
 
 #: build/models.py:1749 order/models.py:2436
 msgid "Allocation quantity must be greater than zero"
@@ -1023,7 +1023,7 @@ msgstr ""
 
 #: build/models.py:1815
 msgid "Selected stock item does not match BOM line"
-msgstr ""
+msgstr "Selected item does not match BOM line"
 
 #: build/models.py:1853
 msgid "Allocated quantity exceeds available stock quantity"
@@ -1035,11 +1035,11 @@ msgstr ""
 #: stock/models.py:457 stock/serializers.py:101 stock/serializers.py:823
 #: stock/serializers.py:1310 stock/serializers.py:1422
 msgid "Stock Item"
-msgstr ""
+msgstr "Item"
 
 #: build/models.py:1905
 msgid "Source stock item"
-msgstr ""
+msgstr "Source item"
 
 #: build/models.py:1915
 msgid "Stock quantity to allocate to build"
@@ -1051,7 +1051,7 @@ msgstr ""
 
 #: build/models.py:1925
 msgid "Destination stock item"
-msgstr ""
+msgstr "Destination item"
 
 #: build/serializers.py:115
 msgid "Build Level"
@@ -1290,7 +1290,7 @@ msgstr ""
 
 #: build/serializers.py:1111
 msgid "Stock items in multiple locations can be used interchangeably"
-msgstr ""
+msgstr "Items in multiple locations can be used interchangeably"
 
 #: build/serializers.py:1116
 msgid "Substitute Stock"
@@ -2788,7 +2788,7 @@ msgstr ""
 
 #: common/setting/system.py:584
 msgid "Stock Item Pricing Age"
-msgstr ""
+msgstr "Item Pricing Age"
 
 #: common/setting/system.py:586
 msgid "Exclude stock items older than this number of days from pricing calculations"
@@ -2977,7 +2977,7 @@ msgstr ""
 
 #: common/setting/system.py:738
 msgid "Installed stock items must exist in the BOM for the parent part"
-msgstr ""
+msgstr "Installed items must exist in the BOM for the parent part"
 
 #: common/setting/system.py:744
 msgid "Allow Out of Stock Transfer"
@@ -3475,15 +3475,15 @@ msgstr ""
 
 #: common/setting/user.py:76
 msgid "Display stock items in search preview window"
-msgstr ""
+msgstr "Display products in search preview window"
 
 #: common/setting/user.py:81
 msgid "Hide Unavailable Stock Items"
-msgstr ""
+msgstr "Hide Unavailable Products"
 
 #: common/setting/user.py:83
 msgid "Exclude stock items which are not available from the search preview window"
-msgstr ""
+msgstr "Exclude products which are not available from the search preview window"
 
 #: common/setting/user.py:89
 msgid "Search Locations"
@@ -4932,7 +4932,7 @@ msgstr ""
 
 #: order/models.py:2273
 msgid "Shipment has no allocated stock items"
-msgstr ""
+msgstr "Shipment has no allocated items"
 
 #: order/models.py:2353
 msgid "Sales Order Extra Line"
@@ -4944,11 +4944,11 @@ msgstr ""
 
 #: order/models.py:2405 order/models.py:2407
 msgid "Stock item has not been assigned"
-msgstr ""
+msgstr "Item has not been assigned"
 
 #: order/models.py:2414
 msgid "Cannot allocate stock item to a line with a different part"
-msgstr ""
+msgstr "Cannot allocate item to a line with a different part"
 
 #: order/models.py:2417
 msgid "Cannot allocate stock to a line without a part"
@@ -4960,7 +4960,7 @@ msgstr ""
 
 #: order/models.py:2439 order/serializers.py:1548
 msgid "Quantity must be 1 for serialized stock item"
-msgstr ""
+msgstr "Quantity must be 1 for serialized item"
 
 #: order/models.py:2442
 msgid "Sales order does not match shipment"
@@ -4984,7 +4984,7 @@ msgstr ""
 
 #: order/models.py:2476
 msgid "Select stock item to allocate"
-msgstr ""
+msgstr "Select item to allocate"
 
 #: order/models.py:2485
 msgid "Enter stock allocation quantity"
@@ -5008,7 +5008,7 @@ msgstr ""
 
 #: order/models.py:2865
 msgid "Stock item must be specified"
-msgstr ""
+msgstr "Item must be specified"
 
 #: order/models.py:2869
 msgid "Return quantity exceeds stock quantity"
@@ -5020,7 +5020,7 @@ msgstr ""
 
 #: order/models.py:2879
 msgid "Invalid quantity for serialized stock item"
-msgstr ""
+msgstr "Invalid quantity for serialized item"
 
 #: order/models.py:2895
 msgid "Select item to return from customer"
@@ -5533,7 +5533,7 @@ msgstr ""
 
 #: part/models.py:841
 msgid "Stock item with this serial number already exists"
-msgstr ""
+msgstr "Item with this serial number already exists"
 
 #: part/models.py:983
 msgid "Duplicate IPN not allowed in part settings"
@@ -6154,7 +6154,7 @@ msgstr ""
 
 #: part/models.py:4477
 msgid "Stock items for variant parts can be used for this BOM item"
-msgstr ""
+msgstr "Items for variant parts can be used for this BOM item"
 
 #: part/models.py:4584 stock/models.py:926
 msgid "Quantity must be integer value for trackable parts"
@@ -6226,7 +6226,7 @@ msgstr ""
 
 #: part/serializers.py:230 part/serializers.py:248 stock/serializers.py:666
 msgid "Purchase currency of this stock item"
-msgstr ""
+msgstr "Purchase currency of this item"
 
 #: part/serializers.py:275
 msgid "File is not an image"
@@ -6347,7 +6347,7 @@ msgstr ""
 #: part/serializers.py:964 stock/serializers.py:1042 stock/serializers.py:1213
 #: users/ruleset.py:30
 msgid "Stock Items"
-msgstr ""
+msgstr "Products"
 
 #: part/serializers.py:968
 msgid "Revisions"
@@ -6657,11 +6657,11 @@ msgstr ""
 
 #: plugin/base/barcodes/api.py:683
 msgid "Barcode does not match an existing stock item"
-msgstr ""
+msgstr "Barcode does not match an existing item"
 
 #: plugin/base/barcodes/api.py:699
 msgid "Stock item does not match line item"
-msgstr ""
+msgstr "Item does not match line item"
 
 #: plugin/base/barcodes/api.py:729
 msgid "Insufficient stock available"
@@ -6669,7 +6669,7 @@ msgstr ""
 
 #: plugin/base/barcodes/api.py:742
 msgid "Stock item allocated to sales order"
-msgstr ""
+msgstr "Item allocated to sales order"
 
 #: plugin/base/barcodes/api.py:745
 msgid "Not enough information"
@@ -7952,7 +7952,7 @@ msgstr ""
 #: report/templates/report/inventree_stock_report_merge.html:21
 #: report/templates/report/inventree_test_report.html:21
 msgid "Stock Item Test Report"
-msgstr ""
+msgstr "Item Test Report"
 
 #: report/templates/report/inventree_stock_report_merge.html:97
 #: report/templates/report/inventree_test_report.html:153
@@ -8071,7 +8071,7 @@ msgstr ""
 
 #: stock/api.py:779
 msgid "Installed in other stock item"
-msgstr ""
+msgstr "Installed in other item"
 
 #: stock/api.py:868
 msgid "Part Tree"
@@ -8127,11 +8127,11 @@ msgstr ""
 
 #: stock/models.py:72
 msgid "Stock Location type"
-msgstr ""
+msgstr "Location type"
 
 #: stock/models.py:73
 msgid "Stock Location types"
-msgstr ""
+msgstr "Location types"
 
 #: stock/models.py:99
 msgid "Default icon for all locations that have no icon set (optional)"
@@ -8139,11 +8139,11 @@ msgstr ""
 
 #: stock/models.py:160 stock/models.py:1046
 msgid "Stock Location"
-msgstr ""
+msgstr "Location"
 
 #: stock/models.py:161 users/ruleset.py:29
 msgid "Stock Locations"
-msgstr ""
+msgstr "Locations"
 
 #: stock/models.py:210 stock/models.py:1211
 msgid "Owner"
@@ -8155,7 +8155,7 @@ msgstr ""
 
 #: stock/models.py:219
 msgid "Stock items may not be directly located into a structural stock locations, but may be located to child locations."
-msgstr ""
+msgstr "Items may not be directly located into a structural locations, but may be located to child locations."
 
 #: stock/models.py:226 users/models.py:503
 msgid "External"
@@ -8188,11 +8188,11 @@ msgstr ""
 
 #: stock/models.py:905
 msgid "Stock items cannot be located into structural stock locations!"
-msgstr ""
+msgstr "Items cannot be located into structural locations!"
 
 #: stock/models.py:932 stock/serializers.py:487
 msgid "Stock item cannot be created for virtual parts"
-msgstr ""
+msgstr "Item cannot be created for virtual parts"
 
 #: stock/models.py:949
 #, python-brace-format
@@ -8221,7 +8221,7 @@ msgstr ""
 
 #: stock/models.py:1016
 msgid "Parent Stock Item"
-msgstr ""
+msgstr "Parent Item"
 
 #: stock/models.py:1028
 msgid "Base part"
@@ -8229,15 +8229,15 @@ msgstr ""
 
 #: stock/models.py:1038
 msgid "Select a matching supplier part for this stock item"
-msgstr ""
+msgstr "Select a matching supplier part for this item"
 
 #: stock/models.py:1050
 msgid "Where is this stock item located?"
-msgstr ""
+msgstr "Where is this item located?"
 
 #: stock/models.py:1058 stock/serializers.py:1643
 msgid "Packaging this stock item is stored in"
-msgstr ""
+msgstr "Packaging this item is stored in"
 
 #: stock/models.py:1064
 msgid "Installed In"
@@ -8253,7 +8253,7 @@ msgstr ""
 
 #: stock/models.py:1105 stock/serializers.py:1628
 msgid "Batch code for this stock item"
-msgstr ""
+msgstr "Batch code for this item"
 
 #: stock/models.py:1110
 msgid "Stock Quantity"
@@ -8265,7 +8265,7 @@ msgstr ""
 
 #: stock/models.py:1123
 msgid "Build for this stock item"
-msgstr ""
+msgstr "Build for this item"
 
 #: stock/models.py:1130
 msgid "Consumed By"
@@ -8273,7 +8273,7 @@ msgstr ""
 
 #: stock/models.py:1133
 msgid "Build order which consumed this stock item"
-msgstr ""
+msgstr "Build order which consumed this item"
 
 #: stock/models.py:1142
 msgid "Source Purchase Order"
@@ -8281,7 +8281,7 @@ msgstr ""
 
 #: stock/models.py:1146
 msgid "Purchase order for this stock item"
-msgstr ""
+msgstr "Purchase order for this item"
 
 #: stock/models.py:1152
 msgid "Destination Sales Order"
@@ -8338,23 +8338,23 @@ msgstr ""
 
 #: stock/models.py:2032
 msgid "Stock item has been assigned to a sales order"
-msgstr ""
+msgstr "Item has been assigned to a sales order"
 
 #: stock/models.py:2036
 msgid "Stock item is installed in another item"
-msgstr ""
+msgstr "Item is installed in another item"
 
 #: stock/models.py:2039
 msgid "Stock item contains other items"
-msgstr ""
+msgstr "Item contains other items"
 
 #: stock/models.py:2042
 msgid "Stock item has been assigned to a customer"
-msgstr ""
+msgstr "Item has been assigned to a customer"
 
 #: stock/models.py:2045 stock/models.py:2226
 msgid "Stock item is currently in production"
-msgstr ""
+msgstr "Item is currently in production"
 
 #: stock/models.py:2048
 msgid "Serialized stock cannot be merged"
@@ -8366,11 +8366,11 @@ msgstr ""
 
 #: stock/models.py:2059
 msgid "Stock items must refer to the same part"
-msgstr ""
+msgstr "Items must refer to the same part"
 
 #: stock/models.py:2067
 msgid "Stock items must refer to the same supplier part"
-msgstr ""
+msgstr "Items must refer to the same supplier part"
 
 #: stock/models.py:2072
 msgid "Stock status codes must match"
@@ -8382,7 +8382,7 @@ msgstr ""
 
 #: stock/models.py:2816
 msgid "Stock Item Tracking"
-msgstr ""
+msgstr "Item Tracking"
 
 #: stock/models.py:2847
 msgid "Entry notes"
@@ -8390,7 +8390,7 @@ msgstr ""
 
 #: stock/models.py:2887
 msgid "Stock Item Test Result"
-msgstr ""
+msgstr "Item Test Result"
 
 #: stock/models.py:2918
 msgid "Value must be provided for this test"
@@ -8502,7 +8502,7 @@ msgstr ""
 
 #: stock/serializers.py:452
 msgid "Parent stock item"
-msgstr ""
+msgstr "Parent item"
 
 #: stock/serializers.py:472
 msgid "Use pack size when adding: the quantity defined is the number of packs"
@@ -8585,7 +8585,7 @@ msgstr ""
 
 #: stock/serializers.py:853
 msgid "Stock item is unavailable"
-msgstr ""
+msgstr "Item is unavailable"
 
 #: stock/serializers.py:864
 msgid "Selected part is not in the Bill of Materials"
@@ -8613,7 +8613,7 @@ msgstr ""
 
 #: stock/serializers.py:1014
 msgid "Stock item status code"
-msgstr ""
+msgstr "Item status code"
 
 #: stock/serializers.py:1043
 msgid "Select stock items to change status"
@@ -8693,11 +8693,11 @@ msgstr ""
 
 #: stock/serializers.py:1602
 msgid "Stock item is not in stock"
-msgstr ""
+msgstr "Item is not in stock"
 
 #: stock/serializers.py:1605
 msgid "Stock item is already in stock"
-msgstr ""
+msgstr "Item is already in stock"
 
 #: stock/serializers.py:1619
 msgid "Quantity must not be negative"
@@ -8753,11 +8753,11 @@ msgstr ""
 
 #: stock/status_codes.py:46
 msgid "Stock item created"
-msgstr ""
+msgstr "Item created"
 
 #: stock/status_codes.py:49
 msgid "Edited stock item"
-msgstr ""
+msgstr "Edited item"
 
 #: stock/status_codes.py:50
 msgid "Assigned serial number"
